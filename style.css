@@ -1,0 +1,152 @@
+.wf-mplus1p {
+  font-family: "M PLUS 1p";
+}
+
+body {
+  text-align: center;
+  background-color: #e5ffe5;
+  font-family: "M PLUS 1p";
+}
+
+div {
+  background-color: #e5ffe5;
+  color: black;
+  font-size: xx-large;
+  font-family: "M PLUS 1p";
+}
+
+span {
+  position: relative;
+  left: 15px;
+  color: black;
+  background-color: #e5ffe5;
+  font-size: x-large;
+  font-family: "M PLUS 1p";
+}
+
+input {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  font-size: x-large;
+  border-radius: 0.5rem;
+  font-family: "M PLUS 1p";
+  border: solid 2px gray;
+}
+
+button {
+  position: relative;
+  top: 6px;
+  width: 147px;
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  border-radius: 0.5rem;
+  font-family: "M PLUS 1p";
+  cursor: pointer;
+  border: solid 2px gray;
+} 
+#loopTime {
+  position: relative;
+  left: 11px;
+}
+
+.caution {
+  font-size: medium;
+}
+
+input[type=file] {
+  display: none;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  top: 3px;
+  left: 70px;
+  padding: 5px 15px;
+  color: black;
+  background-color: white;
+  border: solid 2px gray;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.sub {
+  font-size: large;
+}
+
+img {
+  max-width: 400px;
+  vertical-align: bottom;
+}
+
+.basicFunctionText {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(250px, -22px);
+  width: 150px;
+  float: right;
+  font-size: 22px;
+  color: #3FA142;
+  background-color: transparent;
+}
+
+.basicFunction {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-75px);
+  width: 150px;
+  float: right;
+  color: #3FA142;
+  background-color: transparent;
+}
+
+.textImportFunctionText {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(340px, -22px);
+  width: 300px;
+  float: right;
+  font-size: 22px;
+  color: #3FA142;
+  background-color: transparent;
+}
+
+.textImportFunction {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-75px);
+  width: 150px;
+  float: right;
+  color: #3FA142;
+  background-color: transparent;
+}
+
+.basicFunction#eng {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-32px, 135px);
+  font-size: medium;
+  background-color: transparent;
+}
+
+.textImportFunction#eng {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-32px, 135px);
+  font-size: medium;
+  background-color: transparent;
+}
+
+.forms {
+  position: relative;
+  left: -114px;
+  font-size: medium;
+}/*# sourceMappingURL=style.css.map */
