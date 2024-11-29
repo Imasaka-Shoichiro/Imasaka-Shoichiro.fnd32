@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <img src="urlswitchLogo.png" alt="">
+  <img id="titleImage" src="urlswitchLogo.png" alt="">
   <div class="sub">Webサイト自動切換え</div><br>
 
   <input type="text" class="url" id="url1" placeholder="URL1"><br>
@@ -24,7 +24,8 @@
   <button id="startSwitch">Start</button>
   <button id="stopSwitch">Stop</button><br><br>
   <div>Switch time</div>
-  <input type="text" id="switchTime" value="60"><span>秒</span>
+    <input type="text" id="switchTime" value="60">
+    <span class="second">秒</span>
   <div class="caution">※60秒未満だと切換え時間が安定しない場合があります</div>
   <div class="forms">※お問い合わせは<a href="https://forms.office.com/r/wJQEqaKXVY">こちら</a></div>
   
@@ -46,8 +47,51 @@
     </a>
   </div>
   
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <script src="main.js"></script>
+  <br><br><br><br><br><br><br><br>
 
+  <div class="refactoring">
+    <div class="refactoringTitle">リファクタリング結果</div><br>
+    <div class="refactoringSubTitle1">1.コメントアウトの削除<br>
+      <div>
+        <span class="before1">Before</span>
+        <span class="after1">After</span>
+      </div>
+    </div>
+    <img class="refactoringImage" src="beforeCommentOut.png" alt="">
+    <img class="refactoringImage" src="afterCommentOut.png" alt="">
+    <div class="comment1">
+      コメント削除<br>
+      変数名の修正<br>
+    </div>
+
+    <br><br>
+
+    <div class="refactoringSubTitle2">2.関数内のスリム化<br>
+      <div>
+        <span class="before2">Before</span>
+        <span class="after2">After</span>
+      </div>
+    </div>
+    <img class="opneNextTabImage" src="beforeOpenNextTab.png" alt="">
+    <img class="opneNextTabImage" src="afterOpenNextTab.png" alt="">
+    <div class="comment2">
+      テスト用 console.log() 削除。<br>
+      検証用タイマー削除に伴い <br>
+      setTimeout関数内スリム化
+    </div>
+  </div>
+
+  <br><br>
+
+  <div>
+    JSコード：149行  ⇒  77行<br>
+    約半分の量になり、可読性が向上！
+  </div>
+  <br><br>
+  <img class="logo" src="urlswitchLogo.png" alt=""><br><br>
+  <div class="last">今後もアップデートを重ねていきます！</div>
+  <br><br><br><br>
+
+  <script src="main.js"></script>
 </body>
 </html>
