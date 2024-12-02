@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL SWITCH</title>
+  <link rel="stylesheet" type="text/css" href="styleRefactoring2.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+  <link rel="icon" type="image/png" href="urlswitchFavicon.png">
+</head>
+
+<body>
+  <div class="refactoring">
+    <div class="refactoringTitle">リファクタリング結果2</div>
+    <div id="before">
+      <div class="refactoringSubTitle">2.関数内のスリム化</div>
+      <div class="before">Before</div>
+      <img id="beforeImage" src="beforeOpenNextTab.png" alt=""><br><br>
+      <input id="pass" type="text" placeholder="パスワード">
+    </div>
+    <div id="after">
+      <span class="after">After</span>
+      <img id="afterImage" src="afterOpenNextTab.png" alt=""><br>
+      <div class="comment">
+        テスト用 console.log() 削除。<br>
+        検証用タイマー削除に伴い <br>
+        setTimeout関数内スリム化
+      </div>
+    </div>
+  </div>
+
+  <script src="main3.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  background-color: #e5ffe5;
+  font-family: "M PLUS 1p";
+}
+
+div {
+  font-size: xx-large;
+}
+
+input {
+  text-align: center;
+  font-size: x-large;
+  border-radius: 0.5rem;
+  font-family: "M PLUS 1p";
+  border: solid 2px gray;
+}
+
+.refactoring {
+  position: relative;
+}
+
+#before {
+  position: relative;
+  transition: transform 2s ease;
+}
+
+#after {
+  position: relative;
+}
+
+.refactoringSubTitle {
+  font-size: xx-large;
+}
+
+
+.slide .before,
+.slide #beforeImage {
+  transform: translateX(-260px);
+}
+
+.slide .refactoringSubTitle {
+  transform: translateX(-380px);
+}
+
+#beforeImage {
+  position: relative;
+  width: 500px;
+  vertical-align: top;
+  transition: transform 2s ease;
+}
+
+.refactoringSubTitle {
+  position: relative;
+  font-size: x-large;
+  transition: transform 2s ease;
+}
+
+.before {
+  position: relative;
+  font-size: x-large;
+  transition: transform 2s ease;
+}
+
+.fade-in #afterImage,
+.fade-in .after,
+.fade-in2 .comment {
+  visibility: visible;
+  opacity: 1;
+}
+
+.after {
+  position: absolute;
+  visibility: hidden;
+  top: -682px;
+  left: 530px;
+  position: relative;
+  font-size: x-large;
+  opacity: 0;
+}
+
+#afterImage {
+  position: relative;
+  visibility: hidden;
+  top: -442px;
+  left: 230px;
+  width: 500px;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.comment {
+  position: relative;
+  visibility: hidden;
+  width: 100;
+  top: -450px;
+  left: 280px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3FA142;
+  opacity: 0;
+  transition: opacity 4s ease;
+}
+
